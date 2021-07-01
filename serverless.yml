@@ -1,0 +1,13 @@
+# serverless.yml
+service: esbuild-demo
+
+plugins:
+  - serverless-esbuild
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  function:
+    handler: src/function.handler

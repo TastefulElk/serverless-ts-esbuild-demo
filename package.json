@@ -1,0 +1,19 @@
+{
+  "name": "walkthrough",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "esbuild-jest": "^0.5.0",
+    "jest": "^27.0.6",
+    "serverless": "^2.50.0",
+    "serverless-esbuild": "^1.15.1"
+  }
+}
